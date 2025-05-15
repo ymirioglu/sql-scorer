@@ -1,0 +1,30 @@
+# weights.yaml
+elapsed_ms:
+  weight: 0.25
+  category: computational       
+
+cpu_sec:
+  weight: 0.15
+  category: computational
+
+mem_mb:
+  weight: 0.05
+  category: computational
+
+seq_scans:
+  weight: 0.15
+  category: optimization
+
+index_scans:
+  weight: 0.05
+  smaller_is_better: false
+  category: optimization
+
+total_cost:
+  weight: 0.05
+  category: optimization
+
+lint_score:
+  weight: 0.30
+  smaller_is_better: false
+  category: readability

@@ -1,0 +1,1 @@
+SELECT * FROM numbers WHERE n < 1000;

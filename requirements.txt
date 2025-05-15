@@ -1,0 +1,9 @@
+psycopg2-binary
+sqlalchemy
+psutil
+sqlfluff
+matplotlib
+pandas
+click
+pyyaml
+rich>=13.0
